@@ -1,6 +1,7 @@
-* {
+body {
     margin: 0;
     padding: 0;
+    background-color: beige;
 }
 
 h1 {
@@ -10,6 +11,11 @@ h1 {
     height: 100px;
 
     background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 .grid-container {
