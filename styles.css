@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: flex;
+    width: 512px;
+    height: 512px;
+    background-color: black;
+    border: 5px solid orange;
+}
+
+.grid-container .grid-item-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.grid-container .grid-item-column .grid-item-row {
+    flex: 1 1 auto;
+}
