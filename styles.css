@@ -13,6 +13,22 @@ h1 {
     background-color: gray;
 }
 
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.controls * {
+    width: 75px;
+    height: 25px;
+
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
 .container {
     display: flex;
     justify-content: center;
